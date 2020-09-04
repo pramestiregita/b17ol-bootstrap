@@ -187,11 +187,10 @@ a:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 31px;
-    font-weight: bold;
     color: #ffffff;
 }
 
-.slider-wrapper .arrow button {
+.slider-wrapper .arrow .btn {
     width: 52px;
     height: 52px;
     background-color: #ffffff;
@@ -238,4 +237,74 @@ a:hover {
 
 .slider-wrapper .indicator .item.active {
     background-color: #8E8A8A;
+}
+
+.category {
+    margin: 0 100px;
+    margin-top: 80px;
+}
+
+.category .title h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.category .title span {
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.category .item-wrapper {
+    margin-top: 30px;
+}
+
+.category .item-wrapper .item {
+    width: 206px;
+    height: 220px;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.category .item-wrapper .item span {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.category .item-wrapper .item.one {
+    background-color: #CC0B04;
+}
+
+.category .item-wrapper .item.two {
+    background-color: #1C3391;
+}
+
+.category .item-wrapper .item.three {
+    background-color: #F67B02;
+}
+
+.category .item-wrapper .item.four {
+    background-color: #E31F51;
+}
+
+.category .item-wrapper .item.five {
+    background-color: #57CD9E;
+}
+
+.category .item-wrapper .btn.next {
+    width: 52px;
+    height: 52px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(181, 181, 181, 0.25);
+    border-radius: 50% 50%;
+    padding: 10px 10px;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.category .item-wrapper .btn.next img {
+    transform: rotate(180deg);
+    width: 32px;
+    height: 32px;
+    left: 0;
 }
