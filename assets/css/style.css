@@ -1,0 +1,104 @@
+@font-face{
+    font-family: Metropolis;
+    src: url("../fonts/Metropolis-Regular.woff") format("woof"),
+    url("../fonts/Metropolis-Regular.woff2") format("woff2"),
+    url("../fonts/Metropolis-SemiBold.woff") format("woff"),
+    url("../fonts/Metropolis-SemiBold.woff2") format("woff2"),
+    url("../fonts/Metropolis-Bold.woff") format("woff"),
+    url("../fonts/Metropolis-Bold.woff2") format("woff2");
+}
+
+body {
+    font-family: "Metropolis";
+}
+
+a {
+    color: #5F4B8B;
+}
+
+a:hover {
+    color: #443664;
+}
+
+.header .icon {
+    margin-bottom: 40px;
+}
+
+.header .icon img {
+    width: 135px;
+    height: 50px;
+}
+
+.header .message {
+    margin-bottom: 50px;
+}
+
+.header .message span {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.switch .btn {
+    width: 123px;
+    height: 48px;
+    margin-bottom: 40px;
+}
+
+.switch .btn .btn-primary {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.switch .btn .btn-secondary {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.btn-primary {
+    background-color: #5F4B8B;
+    color: #ffffff;
+    border-width: 0;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    color: #9B9B9B;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #443664;
+}
+
+.auth {
+    width: 400px;
+}
+
+.auth .form-group {
+    margin: 0;
+}
+
+.auth .email {
+    margin-bottom: 16px;
+}
+
+.auth .pass {
+    margin-bottom: 26px;
+}
+
+.auth .input input {
+    width: 400px;
+    height: 48px;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.auth .forgot-link {
+    margin-bottom: 26px;
+}
+
+.auth .button .btn {
+    width: 400px;
+    height: 48px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
