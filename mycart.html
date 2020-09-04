@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar sticky-top">
+        <div class="d-flex align-items-center navbar-wrapper w-100">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/icon.svg" alt="" width="119px" height="44px">
+                </a>
+            </div>
+            <div class="d-flex align-items-center search-wrapper">
+                <div class="searchbar d-flex align-items-center position-relative">
+                    <div>
+                        <form class="form-inline">
+                            <input class="form-control" type="search" name="search" placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="search position-absolute">
+                        <a href="#">
+                            <img src="./assets/images/search.svg" alt="" width="18px" height="18px">
+                        </a>
+                    </div>
+                </div>
+                <div class="filter">
+                    <button>
+                        <img src="./assets/images/filter.svg" alt="" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+            <div class="nav d-flex flex-grow-1 justify-content-end align-items-center">
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/cart.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/bell.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/mail.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart profile">
+                    <a href="#">
+                        <img src="./assets/images/profile.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="my-cart">
+        <div class="title">
+            <h1 class="font-weight-bold">My Cart</h1>
+        </div>
+        <div class="item-wrapper">
+            <div class="row">
+                <div class="col-8">
+                    <div class="item select d-flex align-items-center">
+                        <div class="check">
+                            <input type="checkbox" name="checkbox">
+                        </div>
+                        <div class="message">
+                            <h6 class="m-0">
+                                Select all items
+                                <small class="text-muted">(2 items selected)</small>
+                            </h6>
+                        </div>
+                        <div class="delete flex-grow-1 text-right">
+                            <h6 class="m-0 font-weight-bold">Delete</h6>
+                        </div>
+                    </div>
+                    <div class="item product d-flex align-items-center">
+                        <div class="check">
+                            <input type="checkbox" name="checkbox">
+                        </div>
+                        <div class="pict">
+                            <a href="#">
+                                <img src="./assets/images/item.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title d-flex flex-column align-items-start">
+                            <a href="#">
+                                <div>
+                                    <h6 class="m-0 font-weight-bold">Men's formal suit - Black</h6>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div>
+                                    <span>Zalora Cloth</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="total d-flex align-items-center">
+                            <div class="min">
+                                <button class="btn p-0">
+                                    <img src="./assets/images/minus.svg" alt="" width="14px" height="2px">
+                                </button>
+                            </div>
+                            <div class="amount">
+                                <span>1</span>
+                            </div>
+                            <div class="plus">
+                                <button class="btn p-0">
+                                    <img src="./assets/images/plus.svg" alt="" width="14px" height="14px">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="price flex-grow-1 text-right">
+                            <h6 class="m-0 font-weight-bold">$ 20.0</h6>
+                        </div>
+                    </div>
+                    <div class="item product d-flex align-items-center">
+                        <div class="check">
+                            <input type="checkbox" name="checkbox">
+                        </div>
+                        <div class="pict">
+                            <a href="#">
+                                <img src="./assets/images/item2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title d-flex flex-column align-items-start">
+                            <a href="#">
+                                <div>
+                                    <h6 class="m-0 font-weight-bold">Men's Jacket jeans</h6>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div>
+                                    <span>Zalora Cloth</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="total d-flex align-items-center">
+                            <div class="min">
+                                <button class="btn p-0">
+                                    <img src="./assets/images/minus.svg" alt="" width="14px" height="2px">
+                                </button>
+                            </div>
+                            <div class="amount">
+                                <span>1</span>
+                            </div>
+                            <div class="plus">
+                                <button class="btn p-0">
+                                    <img src="./assets/images/plus.svg" alt="" width="14px" height="14px">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="price flex-grow-1 text-right">
+                            <h6 class="m-0 font-weight-bold">$ 20.0</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="item summary">
+                        <div class="title">
+                            <h6 class="m-0 font-weight-bold">Shopping Summary</h6>
+                        </div>
+                        <div class="price d-flex">
+                            <div>
+                                <span>Total price</span>
+                            </div>
+                            <div class="flex-grow-1 text-right">
+                                <h5 class="m-0 font-weight-bold">$ 40.0</h5>
+                            </div>
+                        </div>
+                        <div class="buy p-0">
+                            <button class="btn btn-primary w-100">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -148,6 +148,10 @@ body {
     margin-right: 41px;
 }
 
+.navbar .navbar-wrapper .nav .cart.profile img {
+    border-radius: 50% 50%;
+}
+
 .navbar .navbar-wrapper .nav .btn {
     width: 100px;
     height: 36px;
@@ -254,12 +258,12 @@ body {
     color: #443664;
 }
 
-.category .title h1 {
+.category .title h1, .product .title h1, .my-cart .title h1 {
     margin: 0;
     font-size: 34px;
 }
 
-.category .title span {
+.category .title span, .product .title span {
     color: #9B9B9B;
     font-size: 12px;
 }
@@ -342,16 +346,6 @@ body {
     text-decoration: none;
 }
 
-.product .title h1 {
-    margin: 0;
-    font-size: 34px;
-}
-
-.product .title span {
-    color: #9B9B9B;
-    font-size: 12px;
-}
-
 .product .item-wrapper {
     margin-top: 25px;
 }
@@ -421,4 +415,113 @@ body {
     font-size: 10px;
     line-height: 8px;
     color: #9B9B9B;
+}
+
+.my-cart {
+    margin: 0 100px;
+    margin-top: 50px;
+}
+
+.my-cart .item-wrapper {
+    margin-top: 30px;
+    margin-bottom: 340px;
+}
+
+.my-cart .item-wrapper .item {
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+
+.my-cart .item-wrapper .item.select {
+    height: 64px;
+    margin-bottom: 20px;
+}
+
+.my-cart .item-wrapper .item.select input, .my-cart .item-wrapper .item.product input {
+    margin-left: 22px;
+}
+
+.my-cart .item-wrapper .item.select .message {
+    margin-left: 20px;
+}
+
+.my-cart .item-wrapper .item.select .delete {
+    margin-right: 24px;
+    color: #5F4B8B;
+}
+
+.my-cart .item-wrapper .item.product {
+    height: 126px;
+    margin-bottom: 10px;
+}
+
+.my-cart .item-wrapper .item.product .pict {
+    margin-left: 28px;
+    border-radius: 8px;
+}
+
+.my-cart .item-wrapper .item.product .pict img {
+    width: 70px;
+    height: 69px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.my-cart .item-wrapper .item.product .title {
+    margin-left: 14px;
+    width: 255px;
+}
+
+.my-cart .item-wrapper .item.product .total {
+    margin-left: 35px;
+}
+
+.my-cart .item-wrapper .item.product .total .btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50% 50%;
+}
+
+.my-cart .item-wrapper .item.product .total .min .btn {
+    background-color: #D5D5D5;
+}
+
+.my-cart .item-wrapper .item.product .total .plus .btn {
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+}
+
+.my-cart .item-wrapper .item.product .total .amount {
+    margin: 0 17px;
+}
+
+.my-cart .item-wrapper .item.product .price {
+    margin-right: 42px;
+}
+
+.my-cart .item-wrapper .item.summary {
+    height: 180px;
+    padding: 24px 24px;
+}
+
+.my-cart .item-wrapper .item.summary .title {
+    height: 16px;
+    margin-bottom: 30px;
+}
+
+.my-cart .item-wrapper .item.summary .price {
+    height: 18px;
+    margin-bottom: 34px;
+}
+
+.my-cart .item-wrapper .item.summary .price span {
+    color: #9B9B9B;
+    font-size: 16px;
+}
+
+.my-cart .item-wrapper .item.summary .buy {
+    margin-bottom: 24px;
+}
+
+.my-cart .item-wrapper .item.summary .buy button {
+    border-radius: 25px;
 }
