@@ -12,11 +12,11 @@ body {
     font-family: "Metropolis";
 }
 
-a {
+.form a {
     color: #5F4B8B;
 }
 
-a:hover {
+.form a:hover {
     color: #443664;
 }
 
@@ -310,85 +310,97 @@ a:hover {
     left: 0;
 }
 
-.new-product {
-    margin: 50px 100px;
+.product.new {
+    margin: 0 100px;
+    margin-top: 50px;
 }
 
-.new-product .title h1 {
+.product.popular {
+    margin: 0 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.product a:hover {
+    text-decoration: none;
+}
+
+.product .title h1 {
     margin: 0;
     font-size: 34px;
 }
 
-.new-product .title span {
+.product .title span {
     color: #9B9B9B;
     font-size: 12px;
 }
 
-.new-product .item-wrapper {
+.product .item-wrapper {
     margin-top: 25px;
 }
 
-.new-product .item-wrapper .item {
+.product .item-wrapper .item {
     width: 208px;
     height: 278px;
     box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
     border-radius: 8px;
 }
 
-.new-product .item-wrapper .item .pict img {
+.product .item-wrapper .item .pict img {
     object-fit: fill;
     border-radius: 8px 8px 0 0;
 }
 
-.new-product .item-wrapper .item .desc {
+.product .item-wrapper .item .desc {
     margin: 0 12px;
     margin-top: 10px;
 }
 
-.new-product .item-wrapper .item .desc .name {
+.product.item-wrapper .item .desc .name {
     height: 48px;
 }
 
-.new-product .item-wrapper .item .desc .name span {
+.product .item-wrapper .item .desc .name span {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    color: #000000;
 }
 
-.new-product .item-wrapper .item .desc .price {
+.product .item-wrapper .item .desc .price {
     height: 16px;
     margin-top: 6px;
 }
 
-.new-product .item-wrapper .item .desc .price span {
+.product .item-wrapper .item .desc .price span {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     color: #5F4B8B;
 }
 
-.new-product .item-wrapper .item .desc .store {
+.product .item-wrapper .item .desc .store {
     height: 12px;
     margin-top: 6px;
 }
 
-.new-product .item-wrapper .item .desc .store span {
+.product .item-wrapper .item .desc .store span {
     font-size: 12px;
     font-weight: 500;
     line-height: 12px;
     color: #9B9B9B;
 }
 
-.new-product .item-wrapper .item .desc .rating {
+.product .item-wrapper .item .desc .rating {
     height: 14px;
     margin-top: 10px;
 }
 
-.new-product .item-wrapper .item .desc .rating .star {
+.product .item-wrapper .item .desc .rating .star {
     margin-right: 2px;
 }
 
-.new-product .item-wrapper .item .desc .rating .sell span {
+.product .item-wrapper .item .desc .rating .sell span {
     font-size: 10px;
     line-height: 8px;
     color: #9B9B9B;
