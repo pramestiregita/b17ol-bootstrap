@@ -45,11 +45,11 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.switch .btn .btn-primary {
+.switch .btn.btn-primary {
     border-radius: 4px 0px 0px 4px;
 }
 
-.switch .btn .btn-secondary {
+.switch .btn.btn-secondary {
     border-radius: 0px 4px 4px 0px;
 }
 
@@ -76,11 +76,11 @@ a:hover {
     margin: 0;
 }
 
-.auth .name {
+.auth .input.name {
     margin-bottom: 16px;
 }
 
-.auth .pass {
+.auth .input.pass {
     margin-bottom: 26px;
 }
 
@@ -147,12 +147,95 @@ a:hover {
     margin-right: 41px;
 }
 
-.navbar .navbar-wrapper .nav .signup {
-    margin-left: 20px;
-}
-
 .navbar .navbar-wrapper .nav .btn {
     width: 100px;
     height: 36px;
     border-radius: 25px;
+}
+
+.navbar .navbar-wrapper .nav .signup {
+    margin-left: 20px;
+}
+
+.slider-wrapper {
+    margin: 0 100px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.slider-wrapper .slider img {
+    border-radius: 8px;
+}
+
+.slider-wrapper .slider .half img {
+    width: 69px;
+    height: 180px;
+}
+
+.slider-wrapper .slider .full {
+    position: relative;
+}
+
+.slider-wrapper .slider .full img {
+    width: 456px;
+    height: 180px;
+}
+
+.slider-wrapper .slider .full .title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 31px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.slider-wrapper .arrow button {
+    width: 52px;
+    height: 52px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(181, 181, 181, 0.25);
+    border-radius: 50% 50%;
+    padding: 10px 10px;
+    position: absolute;
+}
+
+.slider-wrapper .arrow .btn.prev {
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-wrapper .arrow .btn.next {
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-wrapper .arrow .btn.next img {
+    transform: rotate(180deg);
+}
+
+.slider-wrapper .arrow img {
+    width: 32px;
+    height: 32px;
+    left: 0;
+}
+
+.slider-wrapper .indicator {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.slider-wrapper .indicator .item {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #eaeaea;
+    border-radius: 50% 50%;
+}
+
+.slider-wrapper .indicator .item.active {
+    background-color: #8E8A8A;
 }
