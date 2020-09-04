@@ -105,6 +105,7 @@ a:hover {
     padding: 0;
     height: 100px;
     box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+    background-color: #ffffff;
 }
 
 .navbar .navbar-wrapper {
@@ -307,4 +308,88 @@ a:hover {
     width: 32px;
     height: 32px;
     left: 0;
+}
+
+.new-product {
+    margin: 50px 100px;
+}
+
+.new-product .title h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.new-product .title span {
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+.new-product .item-wrapper {
+    margin-top: 25px;
+}
+
+.new-product .item-wrapper .item {
+    width: 208px;
+    height: 278px;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
+}
+
+.new-product .item-wrapper .item .pict img {
+    object-fit: fill;
+    border-radius: 8px 8px 0 0;
+}
+
+.new-product .item-wrapper .item .desc {
+    margin: 0 12px;
+    margin-top: 10px;
+}
+
+.new-product .item-wrapper .item .desc .name {
+    height: 48px;
+}
+
+.new-product .item-wrapper .item .desc .name span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.new-product .item-wrapper .item .desc .price {
+    height: 16px;
+    margin-top: 6px;
+}
+
+.new-product .item-wrapper .item .desc .price span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #5F4B8B;
+}
+
+.new-product .item-wrapper .item .desc .store {
+    height: 12px;
+    margin-top: 6px;
+}
+
+.new-product .item-wrapper .item .desc .store span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+
+.new-product .item-wrapper .item .desc .rating {
+    height: 14px;
+    margin-top: 10px;
+}
+
+.new-product .item-wrapper .item .desc .rating .star {
+    margin-right: 2px;
+}
+
+.new-product .item-wrapper .item .desc .rating .sell span {
+    font-size: 10px;
+    line-height: 8px;
+    color: #9B9B9B;
 }
