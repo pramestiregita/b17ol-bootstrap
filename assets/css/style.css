@@ -85,7 +85,6 @@ a:hover {
 }
 
 .auth .input input {
-    width: 400px;
     height: 48px;
     border: 1px solid #9B9B9B;
     border-radius: 4px;
@@ -97,8 +96,63 @@ a:hover {
 }
 
 .auth .button .btn {
-    width: 400px;
     height: 48px;
     border-radius: 25px;
     margin-bottom: 40px;
+}
+
+.navbar {
+    padding: 0;
+    height: 100px;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+
+.navbar .navbar-wrapper {
+    margin: 0 100px;
+}
+
+.navbar .navbar-wrapper .search-wrapper {
+    margin-left: 60px;
+}
+
+.navbar .navbar-wrapper .search-wrapper .searchbar input {
+    width: 507px;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 23px;
+    padding: 0 20px;
+}
+
+.navbar .navbar-wrapper .search-wrapper .searchbar .search {
+    right: 20px;
+}
+
+.navbar .navbar-wrapper .search-wrapper .filter {
+    margin-left: 11px;
+}
+
+.navbar .navbar-wrapper .search-wrapper .filter button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.navbar .navbar-wrapper .search-wrapper .filter button:focus {
+    outline: none;
+}
+
+.navbar .navbar-wrapper .nav .cart {
+    margin-right: 41px;
+}
+
+.navbar .navbar-wrapper .nav .signup {
+    margin-left: 20px;
+}
+
+.navbar .navbar-wrapper .nav .btn {
+    width: 100px;
+    height: 36px;
+    border-radius: 25px;
 }
