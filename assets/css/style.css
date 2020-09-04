@@ -245,6 +245,15 @@ body {
     margin-top: 80px;
 }
 
+.category .title a, .product .title a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.category .title a:hover, .product .title a:hover {
+    color: #443664;
+}
+
 .category .title h1 {
     margin: 0;
     font-size: 34px;
@@ -257,6 +266,14 @@ body {
 
 .category .item-wrapper {
     margin-top: 30px;
+}
+
+.category .item-wrapper a:hover, .product .item-wrapper a:hover {
+    box-shadow: 2px 2px 2px 2px rgba(95, 75, 139, 1.0);
+}
+
+.category .item-wrapper .item {
+    background-color: #ffffff;
 }
 
 .category .item-wrapper .item {
