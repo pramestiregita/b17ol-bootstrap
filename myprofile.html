@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="vh-100">
+    <nav class="navbar sticky-top">
+        <div class="d-flex align-items-center navbar-wrapper w-100">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/icon.svg" alt="" width="119px" height="44px">
+                </a>
+            </div>
+            <div class="d-flex align-items-center search-wrapper">
+                <div class="searchbar d-flex align-items-center position-relative">
+                    <div>
+                        <form class="form-inline">
+                            <input class="form-control" type="search" name="search" placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="search position-absolute">
+                        <a href="#">
+                            <img src="./assets/images/search.svg" alt="" width="18px" height="18px">
+                        </a>
+                    </div>
+                </div>
+                <div class="filter">
+                    <button>
+                        <img src="./assets/images/filter.svg" alt="" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+            <div class="nav d-flex flex-grow-1 justify-content-end align-items-center">
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/cart.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/bell.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/mail.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart profile">
+                    <a href="#">
+                        <img src="./assets/images/profile.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="myprofile-wrapper h-100">
+        <div class="row w-100 h-100 m-0">
+            <div class="col col-3">
+                <div class="profile d-flex align-items-center">
+                    <div class="pict">
+                        <a href="#">
+                            <img src="./assets/images/profile2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="name">
+                            <span class="font-weight-bold">Johanes Mikael</span>
+                        </div>
+                        <a href="#">
+                            <div class="edit d-flex align-items-center">
+                                <div class="icon">
+                                    <img src="./assets/images/edit.svg" alt="" width="16px" height="16px">
+                                </div>
+                                <div class="desc">
+                                    <span>Ubah profile</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="list d-flex flex-column">
+                    <div class="user d-flex align-items-center">
+                        <div>
+                            <button>
+                                <img src="./assets/images/user.svg" alt="">
+                            </button>
+                        </div>
+                        <div>
+                            <span>My Account</span>
+                        </div>
+                    </div>
+                    <div class="map d-flex align-items-center">
+                        <div>
+                            <button>
+                                <img src="./assets/images/map.svg" alt="">
+                            </button>
+                        </div>
+                        <div>
+                            <span>Shipping Address</span>
+                        </div>
+                    </div>
+                    <div class="order d-flex align-items-center">
+                        <div>
+                            <button>
+                                <img src="./assets/images/order.svg" alt="">
+                            </button>
+                        </div>
+                        <div>
+                            <span>My Order</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-9">
+                <div class="myaccount-wrapper">
+                    <div class="d-flex flex-column">
+                        <div class="title">
+                            <span class="font-weight-bold">My Profile</span>
+                        </div>
+                        <div class="subtitle">
+                            <span>Manage your profile information</span>
+                        </div>
+                        <div class="line1">
+                            <img src="./assets/images/line3.svg" alt="">
+                        </div>
+                        <div class="data row">
+                            <div class="col-8">
+                                <form class="mydata">
+                                    <div class="name form-group row align-items-center">
+                                        <span class="col-3 text-right">Name</span>
+                                        <div class="col-9">
+                                            <input class="w-100" type="text" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="email form-group row align-items-center">
+                                        <span class="col-3 text-right">Email</span>
+                                        <div class="col-9">
+                                            <input class="w-100" type="email" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="phoneNumber form-group row align-items-center">
+                                        <span class="col-3 text-right p-0">Phone Number</span>
+                                        <div class="col-9">
+                                            <input class="w-100" type="text" name="phoneNumber">
+                                        </div>
+                                    </div>
+                                    <div class="gender form-group row align-items-center">
+                                        <span class="col-3 text-right p-0">Gender</span>
+                                        <div class="col-9 d-flex w-100 align-items-center justify-content-between">
+                                            <div class="radio align-items-center">
+                                                <input type="radio" name="gender">
+                                            </div>
+                                            <div class=" align-items-center">
+                                                <span>Laki-laki</span>
+                                            </div>
+                                            <div class="radio">
+                                                <input type="radio" name="gender">
+                                            </div>
+                                            <div>
+                                                <span>Perempuan</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dob form-group row align-items-center">
+                                        <span class="col-3 text-right p-0">Date of Birth</span>
+                                        <div class="col-9 d-flex w-100 justify-content-between">
+                                            <div class="date dropdown">
+                                                <button type="button" class="btn-secondary dropdown-toggle">Date</button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">1</a>
+                                                    <a class="dropdown-item" href="#">2</a>
+                                                    <a class="dropdown-item" href="#">3</a>
+                                                </div>
+                                            </div>
+                                            <div class="month dropdown">
+                                                <button type="button" class="btn-secondary dropdown-toggle">Month</button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">January</a>
+                                                    <a class="dropdown-item" href="#">Febuary</a>
+                                                    <a class="dropdown-item" href="#">March</a>
+                                                </div>
+                                            </div>
+                                            <div class="year dropdown">
+                                                <button type="button" class="btn-secondary dropdown-toggle">Year</button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">1990</a>
+                                                    <a class="dropdown-item" href="#">1991</a>
+                                                    <a class="dropdown-item" href="#">1993</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="save form-group row align-items-center">
+                                        <span class="col-3 text-right p-0"></span>
+                                        <div class="col-7 d-flex align-items-center">
+                                            <button class="btn-primary">Save</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="line">
+                                <img src="./assets/images/line4.svg" alt="">
+                            </div>
+                            <div class="col-3 w-100">
+                                <div class="img d-flex flex-column align-items-center">
+                                    <div>
+                                        <img src="./assets/images/profile3.jpg" alt="" width="110px" height="110px">
+                                    </div>
+                                    <div class="change">
+                                        <button class="btn-secondary">Select image</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

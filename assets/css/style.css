@@ -564,10 +564,6 @@ body {
     font-size: 18px;
 }
 
-.checkout .item-wrapper .item.summary .price span {
-
-}
-
 .my-cart .item-wrapper .item.summary .buy {
     margin-bottom: 24px;
 }
@@ -677,6 +673,10 @@ body {
     color: #ffffff;
 }
 
+.page-product .item-wrapper .desc .button1 button:focus, .page-product .item-wrapper .desc .button2 button:focus {
+    outline: none;
+}
+
 .page-product .item-wrapper .desc .button1 .chat {
     margin-right: 10px;
 }
@@ -741,4 +741,167 @@ body {
 
 .review .right .two, .review .right .three {
     margin-left: 25px;
+}
+
+.myprofile-wrapper {
+    margin-left: 100px;
+}
+
+.myprofile-wrapper .col {
+    padding-top: 50px;
+}
+
+.myprofile-wrapper .col.col-9 {
+    background-color: #F5F5F5;
+}
+
+.myprofile-wrapper .profile .pict img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50%;
+}
+
+.myprofile-wrapper .profile .pict {
+    margin-right: 17px;
+}
+
+.myprofile-wrapper .profile .name span {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.myprofile-wrapper .profile .edit {
+    margin-top: 4px;
+}
+
+.myprofile-wrapper .profile .edit .icon {
+    margin-right: 6px;
+}
+
+.myprofile-wrapper .profile .edit span {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.myprofile-wrapper .list {
+    margin-top: 69.45px;
+}
+
+.myprofile-wrapper .list button {
+    margin-right: 14px;
+    border-radius: 50% 50%;
+    border-width: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.myprofile-wrapper .list .user, .myprofile-wrapper .list .map, .myprofile-wrapper .list .order {
+    margin-bottom: 20px;
+}
+
+.myprofile-wrapper .list .user span, .myprofile-wrapper .list .map span, .myprofile-wrapper .list .order span {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.myprofile-wrapper .list .user span {
+    color: #222222;
+}
+
+.myprofile-wrapper .list .user button {
+    background-color: #456BF3;
+}
+
+.myprofile-wrapper .list .map button {
+    background-color: #F36F45;
+}
+
+.myprofile-wrapper .list .order button {
+    background-color: #F3456F;
+}
+
+.myprofile-wrapper .myaccount-wrapper {
+    margin-left: 45px;
+    width: 750px;
+    height: 636px;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .title span {
+    font-size: 20px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .subtitle span {
+    font-size: 16px;
+    color: #9B9B9B;
+}
+
+.myprofile-wrapper .myaccount-wrapper .line1 img {
+    width: 700px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data {
+    margin-top: 34px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .col-8 {
+    margin-right: 20px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata span {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata input {
+    height: 48px;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata .radio {
+    height: 55px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata .radio input {
+    height: 55px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata .dropdown button {
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    width: 90px;
+    height: 40px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata .save {
+    margin-top: 48px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata .save button {
+    width: 100px;
+    height: 36px;
+    border-radius: 25px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .mydata .save button:focus, .myprofile-wrapper .myaccount-wrapper .data .mydata .dropdown button:focus {
+    outline: none;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .img img {
+    border-radius: 50% 50%;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .img .change {
+    margin-top: 19px;
+}
+
+.myprofile-wrapper .myaccount-wrapper .data .img .change button {
+    width: 140px;
+    height: 36px;
+    border-radius: 24px;
+    border: 1px solid #9B9B9B;
 }
