@@ -367,7 +367,7 @@ body {
     margin-top: 10px;
 }
 
-.product.item-wrapper .item .desc .name {
+.product .item-wrapper .item .desc .name {
     height: 48px;
 }
 
@@ -445,9 +445,19 @@ body {
     margin-left: 20px;
 }
 
-.my-cart .item-wrapper .item.select .delete {
+.my-cart .item-wrapper .item.select .delete button {
     margin-right: 24px;
+    border-width: 0;
+    background-color: #ffffff;
     color: #5F4B8B;
+}
+
+.my-cart .item-wrapper .item.select .delete button:hover {
+    color: #443664;
+}
+
+.my-cart .item-wrapper .item.select .delete button:focus {
+    outline: none;
 }
 
 .my-cart .item-wrapper .item.product {
@@ -476,21 +486,21 @@ body {
     margin-left: 35px;
 }
 
-.my-cart .item-wrapper .item.product .total .btn {
+.btn {
     width: 36px;
     height: 36px;
     border-radius: 50% 50%;
 }
 
-.my-cart .item-wrapper .item.product .total .min .btn {
+.min .btn {
     background-color: #D5D5D5;
 }
 
-.my-cart .item-wrapper .item.product .total .plus .btn {
+.plus .btn {
     box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
 }
 
-.my-cart .item-wrapper .item.product .total .amount {
+.amount {
     margin: 0 17px;
 }
 
@@ -523,5 +533,107 @@ body {
 }
 
 .my-cart .item-wrapper .item.summary .buy button {
+    border-radius: 25px;
+}
+
+.page-product {
+    margin: 0 100px;
+    margin-top: 50px;
+}
+
+.page-product span {
+    color: #9B9B9B;
+    font-size: 14px;
+}
+
+.page-product .item-wrapper {
+    margin-top: 50px;
+}
+
+.page-product .item-wrapper .right {
+    margin-left: 34px;
+}
+
+.page-product .item-wrapper .up {
+    margin-bottom: 23px;
+}
+
+.page-product .item-wrapper .desc {
+    margin-left: 47px;
+}
+
+.page-product .item-wrapper .desc span {
+    font-size: 16px;
+}
+
+.page-product .item-wrapper .desc .store, .page-product .item-wrapper .desc .price {
+    margin-top: 10px;
+}
+
+.page-product .item-wrapper .desc .rating .sell span {
+    font-size: 12px;
+}
+
+.page-product .item-wrapper .desc .text1 {
+    margin-top: 31.29px;
+}
+
+.page-product .item-wrapper .desc .text2 {
+    margin-top: 40px;
+}
+
+.page-product .item-wrapper .desc .color {
+    margin-top: 9px;
+}
+
+.page-product .item-wrapper .desc .color button {
+    width: 46px;
+    height: 46px;
+    border-radius: 50% 50%;
+}
+
+.page-product .item-wrapper .desc .selector {
+    margin-top: 35px;
+}
+
+.page-product .item-wrapper .desc .selector span {
+    color: #000000;
+}
+
+.page-product .item-wrapper .desc .selector .total {
+    margin-left: 80px;
+}
+
+.page-product .item-wrapper .desc .selector .button {
+    margin-top: 14px;
+}
+
+.page-product .item-wrapper .desc .button1 {
+    margin-top: 47px;
+}
+
+.page-product .item-wrapper .desc .button1 button {
+    width: 160px;
+    height: 48px;
+    border-radius: 25px;
+    border: 1px solid #222222;
+    color: #000000;
+}
+
+.page-product .item-wrapper .desc .button1 button:hover {
+    color: #ffffff;
+}
+
+.page-product .item-wrapper .desc .button1 .chat {
+    margin-right: 10px;
+}
+
+.page-product .item-wrapper .desc .button2 {
+    margin-top: 30px;
+}
+
+.page-product .item-wrapper .desc .button2 button {
+    width: 343px;
+    height: 48px;
     border-radius: 25px;
 }
