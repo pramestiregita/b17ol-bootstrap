@@ -637,3 +637,20 @@ body {
     height: 48px;
     border-radius: 25px;
 }
+
+.product-info {
+    margin: 0 100px;
+    margin-top: 50px;
+}
+
+.product-info .text2, .product-info .text4 {
+    margin-top: 40px;
+}
+
+.product-info .text3, .product-info .text5 {
+    margin-top: 10px;
+}
+
+.product-info .text3 h5 {
+    color: #5F4B8B;
+}
