@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar sticky-top">
+        <div class="d-flex align-items-center navbar-wrapper w-100">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/icon.svg" alt="" width="119px" height="44px">
+                </a>
+            </div>
+            <div class="d-flex align-items-center search-wrapper">
+                <div class="searchbar d-flex align-items-center position-relative">
+                    <div>
+                        <form class="form-inline">
+                            <input class="form-control" type="search" name="search" placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="search position-absolute">
+                        <a href="#">
+                            <img src="./assets/images/search.svg" alt="" width="18px" height="18px">
+                        </a>
+                    </div>
+                </div>
+                <div class="filter">
+                    <button>
+                        <img src="./assets/images/filter.svg" alt="" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+            <div class="nav d-flex flex-grow-1 justify-content-end align-items-center">
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/cart.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/bell.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="./assets/images/mail.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart profile">
+                    <a href="#">
+                        <img src="./assets/images/profile.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="checkout">
+        <div class="title">
+            <h1 class="font-weight-bold">Checkout</h1>
+        </div>
+        <div class="item-wrapper">
+            <div class="row">
+                <div class="col-8">
+                    <div class="subtitle">
+                        <span class="font-weight-bold">Shipping Address</span>
+                    </div>
+                    <div class="item address d-flex flex-column">
+                        <div class="name">
+                            <span class="font-weight-bold">Andreas Jane</span>
+                        </div>
+                        <div class="address">
+                            <p class="m-0">Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+                        </div>
+                        <div class="change-add">
+                            <button class="btn btn-secondary p-0">Choose another address</button>
+                        </div>
+                    </div>
+                    <div class="item product d-flex align-items-center">
+                        <div class="pict">
+                            <a href="#">
+                                <img src="./assets/images/item.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title d-flex flex-column align-items-start">
+                            <a href="#">
+                                <div>
+                                    <h6 class="m-0 font-weight-bold">Men's formal suit - Black</h6>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div>
+                                    <span>Zalora Cloth</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="price flex-grow-1 text-right">
+                            <h6 class="m-0 font-weight-bold">$ 20.0</h6>
+                        </div>
+                    </div>
+                    <div class="item product d-flex align-items-center">
+                        <div class="pict">
+                            <a href="#">
+                                <img src="./assets/images/item2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="title d-flex flex-column align-items-start">
+                            <a href="#">
+                                <div>
+                                    <h6 class="m-0 font-weight-bold">Men's Jacket jeans</h6>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div>
+                                    <span>Zalora Cloth</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="price flex-grow-1 text-right">
+                            <h6 class="m-0 font-weight-bold">$ 20.0</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="item summary position-relative">
+                        <div class="title">
+                            <h6 class="m-0 font-weight-bold">Shopping Summary</h6>
+                        </div>
+                        <div class="price d-flex">
+                            <div>
+                                <span>Order</span>
+                            </div>
+                            <div class="flex-grow-1 text-right">
+                                <h5 class="m-0 font-weight-bold">$ 40.0</h5>
+                            </div>
+                        </div>
+                        <div class="price d-flex">
+                            <div>
+                                <span>Delivery</span>
+                            </div>
+                            <div class="flex-grow-1 text-right">
+                                <h5 class="m-0 font-weight-bold">$ 5.0</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="position-absolute align-item-center" src="./assets/images/line2.svg" alt="" width="320px">
+                        </div>
+                        <div class="price-total d-flex">
+                            <div>
+                                <h6 class="m-0 font-weight-bold">Shopping Summary</h6>
+                            </div>
+                            <div class="flex-grow-1 text-right">
+                                <h5 class="red m-0 font-weight-bold">$ 45.0</h5>
+                            </div>
+                        </div>
+                        <div class="buy p-0">
+                            <button class="btn btn-primary w-100">Select payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
