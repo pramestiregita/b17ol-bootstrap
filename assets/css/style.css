@@ -638,7 +638,7 @@ body {
     border-radius: 25px;
 }
 
-.product-info {
+.product-info, .review, .separator {
     margin: 0 100px;
     margin-top: 50px;
 }
@@ -653,4 +653,39 @@ body {
 
 .product-info .text3 h5 {
     color: #5F4B8B;
+}
+
+.review .rating {
+    margin-top: 50px;
+}
+
+.review .rating .left .big {
+    font-size: 60px;
+}
+
+.review .rating .left .small {
+    font-size: 20px;
+    color: #9B9B9B;
+}
+
+.review .rating .left img {
+    width: 24px;
+    height: 24px;
+}
+
+.review .right {
+    margin-left: 60px;
+}
+
+.review .right span {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.review .right .one .desc {
+    margin-left: 10.64px;
+}
+
+.review .right .two, .review .right .three {
+    margin-left: 25px;
 }
